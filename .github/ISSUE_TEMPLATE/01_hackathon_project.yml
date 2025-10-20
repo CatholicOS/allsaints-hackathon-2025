@@ -11,7 +11,6 @@ body:
         Welcome to the CatholicOS All Saints Hackathon 2025!
   - type: textarea
     id: project-team
-    render: markdown
     attributes:
       label: Project Team
       description: List the team members involved in this project (by github username).
@@ -32,19 +31,19 @@ body:
       required: false
   - type: textarea
     id: project-description
-    render: markdown
     attributes:
       label: Project Description
       description: Please provide a brief description of your hackathon project.
+      render: markdown
       placeholder: "A mobile-friendly web app that helps students navigate the campus, find available study spaces, and track campus events in real-time."
     validations:
       required: true
   - type: textarea
     id: project-technologies
-    render: markdown
     attributes:
       label: Technologies Used
       description: List the main technologies, frameworks, or tools used in this project.
+      render: markdown
       placeholder: |
         - React Native
         - Node.js
