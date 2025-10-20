@@ -1,0 +1,53 @@
+name: All Saints Hackathon 2025
+description: Submit a hackathon project.
+title: "[Project]: project_title_here"
+labels: ["hackathon-project"]
+assignees:
+  - RandyDanielson
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Welcome to the CatholicOS All Saints Hackathon 2025!
+  - type: textarea
+    id: project-team
+    render: markdown
+    attributes:
+      label: Project Team
+      description: List the team members involved in this project (by github username).
+      render: markdown
+      placeholder: |
+        - @username1
+        - @username2
+        - @username3
+    validations:
+      required: true
+  - type: input
+    id: project-slug
+    attributes:
+      label: Project Slug
+      description: A short, URL-friendly identifier for your project (e.g., "awesome-ai-tool").
+      placeholder: "awesome-ai-tool"
+    validations:
+      required: false
+  - type: textarea
+    id: project-description
+    render: markdown
+    attributes:
+      label: Project Description
+      description: Please provide a brief description of your hackathon project.
+      placeholder: "A mobile-friendly web app that helps students navigate the campus, find available study spaces, and track campus events in real-time."
+    validations:
+      required: true
+  - type: textarea
+    id: project-technologies
+    render: markdown
+    attributes:
+      label: Technologies Used
+      description: List the main technologies, frameworks, or tools used in this project.
+      placeholder: |
+        - React Native
+        - Node.js
+        - MongoDB
+    validations:
+      required: false
