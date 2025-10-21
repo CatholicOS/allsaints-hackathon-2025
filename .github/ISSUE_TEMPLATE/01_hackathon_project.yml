@@ -13,7 +13,7 @@ body:
     id: project-team
     attributes:
       label: Project Team
-      description: List the team members involved in this project (by github username) and possible a team name.
+      description: List the team members involved in this project (by github username) and possibly a team name.
       render: markdown
       placeholder: |
         Team: Carlo Acutis fellows (Assisi)
