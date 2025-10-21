@@ -17,27 +17,34 @@ Click on the "Issues" tab above and create a new issue using the project submiss
 Your issue should include the following information:
 
 #### **Project Title** (Required)
+
 A clear, descriptive name for your project.
 
 #### **Team Members** (Required)
+
 List the GitHub usernames of all team members. This is essential so we can:
+
 - Create a team in the organization
 - Grant everyone access to your project repository
 
 **Format:**
-```
+
+```markdown
+Team: Team Name
 - @username1
 - @username2
 - @username3
 ```
 
 #### **Project Slug** (Optional)
+
 A short, URL-friendly identifier for your repository (lowercase, hyphens only, no spaces).
 
 - If not provided, we'll generate one from your project title
 - Example: `awesome-ai-tool` or `data-dashboard`
 
 #### **Project Description** (Recommended)
+
 A brief description of what you plan to build. This helps us understand your project and can be useful for other participants.
 
 ### 3. Example Submission
@@ -47,6 +54,7 @@ A brief description of what you plan to build. This helps us understand your pro
 Smart Campus Navigator
 
 ## Team Members
+Team: Hackathon Team
 - @alice_codes
 - @bob_developer
 - @charlie_design
